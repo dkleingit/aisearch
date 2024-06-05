@@ -170,4 +170,3 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 - [OpenAI](https://www.openai.com/)
 - [Flask](https://flask.palletsprojects.com/)
 - [Azure AI Search](https://azure.microsoft.com/en-us/services/search/)
-```
