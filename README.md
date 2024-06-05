@@ -169,7 +169,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 - [LangChain](https://github.com/langchain-ai/langchain)
 - [OpenAI](https://www.openai.com/)
 - [Flask](https://flask.palletsprojects.com/)
-- [Azure Cognitive Search](https://azure.microsoft.com/en-us/services/search/)
+- [Azure AI Search](https://azure.microsoft.com/en-us/services/search/)
 ```
 
 This README provides a comprehensive overview of the project, including setup instructions, usage guidelines, and additional information on licensing and contributions. It also includes detailed steps for creating an Azure AI Search resource.
