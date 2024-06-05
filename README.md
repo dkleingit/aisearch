@@ -62,12 +62,33 @@ Create a `.env` file in the root directory and add the following environment var
 ```
 OPENAI_API_KEY=your_openai_api_key
 AZURE_AI_SEARCH_ADDRESS=your_azure_search_address
-AZURE_AI_SEARCH_PWD=your_azure_search_password
+AZURE_AI_SEARCH_KEY=your_azure_search_password
 ```
 
 - **OPENAI_API_KEY**: Your OpenAI API key.
-- **AZURE_AI_SEARCH_ADDRESS**: The endpoint URL of your Azure Cognitive Search service.
-- **AZURE_AI_SEARCH_PWD**: The admin key for your Azure Cognitive Search service.
+- **AZURE_AI_SEARCH_ADDRESS**: The endpoint URL of your Azure AI Search service.
+- **AZURE_AI_SEARCH_KEY**: The admin key for your Azure AI Search service.
+
+### 5. Create Data for the Vector Store
+
+Before running the `document_loader.py` script, you need to prepare the data that will be indexed and stored in the Azure AI Search service. Follow these steps to create the data:
+
+1. **Prepare Your Text Files**:
+   - Gather the text files you want to index and make sure they are formatted properly for text extraction. Each text file should contain the content that you want to index and should be in plain text format.
+
+2. **Organize Your Data**:
+   - Place your text files in the `data` directory of your project. This directory will be used as the source of data for indexing.
+
+3. **Verify Encoding**:
+   - Ensure that your text files are encoded using UTF-8 or another compatible encoding to avoid issues with special characters or non-ASCII text.
+
+4. **Document Structure**:
+   - Check that each text file contains the content you want to index. Remove any unnecessary headers, footers, or metadata that is not relevant to the content.
+
+5. **Verify File Naming**:
+   - Make sure your text files have descriptive names that reflect their content. This will make it easier to identify and search for specific documents later.
+
+Once your text files are prepared and organized in the `data` directory according to these guidelines, you can proceed to run the `document_loader.py` script to load and index the documents into the Azure AI Search service.
 
 ## Usage
 

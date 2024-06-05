@@ -8,7 +8,7 @@ class AzureSearchSetup:
         load_dotenv()
         self.openai_api_key = os.environ["OPENAI_API_KEY"]
         self.vector_store_address = os.environ["AZURE_AI_SEARCH_ADDRESS"]
-        self.vector_store_password = os.environ["AZURE_AI_SEARCH_PWD"]
+        self.vector_store_key = os.environ["AZURE_AI_SEARCH_KEY"]
         self.embeddings = self._create_embeddings()
         self.vector_store = self._create_vector_store()
 
@@ -22,7 +22,7 @@ class AzureSearchSetup:
     def _create_vector_store(self):
         return AzureSearch(
             azure_search_endpoint=self.vector_store_address,
-            azure_search_key=self.vector_store_password,
+            azure_search_key=self.vector_store_key,
             index_name="vector-index",
             embedding_function=self.embeddings.embed_query,
         )
