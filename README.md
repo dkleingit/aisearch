@@ -53,7 +53,7 @@ pip install -r requirements.txt
     - **Pricing tier**: Select the pricing tier that suits your needs.
 6. Click **Review + create**, then **Create**.
 
-Once the Azure AI Search resource is created, find the host address and primary key that is associated with this resource.
+After creating the Azure AI Search resource, locate the host address and primary key associated with it. You can find the host address (Url) on the resource's overview page, while the primary key can be found in the Keys section under settings.
 
 ### 4. Set Up Environment Variables
 
