@@ -1,4 +1,4 @@
-from azure_setup import AzureSearchSetup
+from search_setup import AzureSearchSetup
 from document_processing import DocumentProcessor
 
 def main():

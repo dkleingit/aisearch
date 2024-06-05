@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from azure_setup import AzureSearchSetup
+from search_setup import AzureSearchSetup
 from conversational_retrieval import ConversationalRetrieval
 
 app = Flask(__name__)
