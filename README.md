@@ -62,7 +62,7 @@ Create a `.env` file in the root directory and add the following environment var
 ```
 OPENAI_API_KEY=your_openai_api_key
 AZURE_AI_SEARCH_ADDRESS=your_azure_search_address
-AZURE_AI_SEARCH_KEY=your_azure_search_password
+AZURE_AI_SEARCH_KEY=your_azure_search_key
 ```
 
 - **OPENAI_API_KEY**: Your OpenAI API key.
