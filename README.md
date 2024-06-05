@@ -4,7 +4,7 @@ This project demonstrates a system for conversational retrieval using LangChain 
 
 ## Project Structure
 
-my_project/
+```my_project/
 ├── search_setup.py
 ├── document_processing.py
 ├── conversational_retrieval.py
