@@ -74,10 +74,10 @@ AZURE_AI_SEARCH_KEY=your_azure_search_key
 Before running the `document_loader.py` script, you need to prepare the data that will be indexed and stored in the Azure AI Search service. Follow these steps to create the data:
 
 1. **Prepare Your Text Files**:
-   - Collect the text files you wish to index, ensuring they are correctly formatted for text extraction. Each file should contain the desired content in plain text format with a .txt extension.
+   - Collect the text files you wish to index, ensuring they are correctly formatted for text extraction. Each file should contain the desired content in plain text format with a `.txt` extension.
 
 2. **Organize Your Data**:
-   - Place your text files in the `data` directory of your project. This directory will be used as the source of data for indexing.
+   - Create a directory named `data` in the root of your project and place your text files inside it. This `data` directory will serve as the source for data indexing.
 
 3. **Verify Encoding**:
    - Ensure that your text files are encoded using UTF-8 or another compatible encoding to avoid issues with special characters or non-ASCII text.
